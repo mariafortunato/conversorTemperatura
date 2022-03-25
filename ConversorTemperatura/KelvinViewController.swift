@@ -1,20 +1,20 @@
 //
-//  CelsiusViewController.swift
+//  KelvinViewController.swift
 //  ConversorTemperatura
 //
-//  Created by Maria Alice Rodrigues Fortunato on 19/03/22.
+//  Created by Maria Alice Rodrigues Fortunato on 22/03/22.
 //
 
 import UIKit
 
-class CelsiusViewController: UIViewController {
+class KelvinViewController: UIViewController {
     
     // MARK: - IBOutlets
     
-    
-    @IBOutlet weak var tempCelsiusTextField: UITextField!
+    @IBOutlet weak var tempKelvinTextField: UITextField!
     @IBOutlet weak var tempFahrenheitLabel: UILabel!
-    @IBOutlet weak var tempKelvinLabel: UILabel!
+    @IBOutlet weak var tempCelsiusLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +25,7 @@ class CelsiusViewController: UIViewController {
     // MARK: - IBAction
     
     @IBAction func converterTempButton(_ sender: Any) {
-        
-        if (tempCelsiusTextField.text == "") {
+        if (tempKelvinTextField.text == "") {
             Alerta(controller: self).exibeAlerta(titulo: "Atenção", mensagem: "Informe a temperatura!")
         } else {
             converterTemp()
@@ -37,17 +36,17 @@ class CelsiusViewController: UIViewController {
     }
     
     func converterTemp() {
-        guard let celsiusString = tempCelsiusTextField.text else { return }
+        guard let kelvinString = tempKelvinTextField.text else { return }
         
-        let celsius = (celsiusString as NSString).doubleValue
+        let kelvin = (kelvinString as NSString).doubleValue
         
-        // celsius para fahrenheit
-        let fahrenheit = 1.8 * celsius + 32
+        // fahrenheit para celsius
+        let fahrenheit = (kelvin - 273) * 1.8 + 32
         tempFahrenheitLabel.text = "\(formatarDecimal(value: fahrenheit)) ºF"
         
-        // celsius para kelvin
-        let kelvin = celsius + 273 // ou 273.15, depende do site 
-        tempKelvinLabel.text = "\(formatarDecimal(value: kelvin)) K"
+        // fahrenheit para kelvin
+        let celsius = kelvin - 273
+        tempCelsiusLabel.text = "\(formatarDecimal(value: celsius)) ºC"
     }
     func formatarDecimal(value:Double) -> String {
         let numeroFormatado = NumberFormatter()
@@ -63,12 +62,13 @@ class CelsiusViewController: UIViewController {
     func bordaTextField() {
         let laranja:CGColor = CGColor(red: 198.0/255.0, green: 90.0/255.0, blue: 41.0/255.0, alpha: 0.40)
         
-        tempCelsiusTextField.layer.borderWidth = 1
-        tempCelsiusTextField.layer.borderColor = laranja
+        tempKelvinTextField.layer.borderWidth = 1
+        tempKelvinTextField.layer.borderColor = laranja
         
     }
     func blackLabel() {
-        tempKelvinLabel.textColor = .black
+        tempCelsiusLabel.textColor = .black
         tempFahrenheitLabel.textColor = .black
     }
 }
+

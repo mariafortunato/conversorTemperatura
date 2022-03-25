@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C3A8E6427EA70BC004BFE88 /* FahrenheitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A8E6327EA70BC004BFE88 /* FahrenheitViewController.swift */; };
+		4C3A8E6827EA7760004BFE88 /* KelvinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A8E6727EA7760004BFE88 /* KelvinViewController.swift */; };
+		4C3A8E6A27EA797B004BFE88 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A8E6927EA797B004BFE88 /* Alerta.swift */; };
 		4CD28A0227E6341B003425F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD28A0127E6341B003425F3 /* AppDelegate.swift */; };
 		4CD28A0427E6341B003425F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD28A0327E6341B003425F3 /* SceneDelegate.swift */; };
 		4CD28A0627E6341B003425F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD28A0527E6341B003425F3 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		4C3A8E6327EA70BC004BFE88 /* FahrenheitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitViewController.swift; sourceTree = "<group>"; };
+		4C3A8E6727EA7760004BFE88 /* KelvinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinViewController.swift; sourceTree = "<group>"; };
+		4C3A8E6927EA797B004BFE88 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
 		4CD289FE27E6341B003425F3 /* ConversorTemperatura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversorTemperatura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD28A0127E6341B003425F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD28A0327E6341B003425F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C67B27127EDEFA8009FE648 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CD28A0127E6341B003425F3 /* AppDelegate.swift */,
+				4CD28A0327E6341B003425F3 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		4CD289F527E6341B003425F3 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +73,16 @@
 		4CD28A0027E6341B003425F3 /* ConversorTemperatura */ = {
 			isa = PBXGroup;
 			children = (
-				4CD28A0127E6341B003425F3 /* AppDelegate.swift */,
-				4CD28A0327E6341B003425F3 /* SceneDelegate.swift */,
+				4C67B27127EDEFA8009FE648 /* Delegate */,
+				4CD28A0F27E6341C003425F3 /* Info.plist */,
+				4C3A8E6927EA797B004BFE88 /* Alerta.swift */,
+				4CD28A0A27E6341C003425F3 /* Assets.xcassets */,
+				4CD28A0727E6341C003425F3 /* Main.storyboard */,
+				4CD28A0C27E6341C003425F3 /* LaunchScreen.storyboard */,
 				4CD28A0527E6341B003425F3 /* ViewController.swift */,
 				4CD28A1527E63746003425F3 /* CelsiusViewController.swift */,
-				4CD28A0727E6341C003425F3 /* Main.storyboard */,
-				4CD28A0A27E6341C003425F3 /* Assets.xcassets */,
-				4CD28A0C27E6341C003425F3 /* LaunchScreen.storyboard */,
-				4CD28A0F27E6341C003425F3 /* Info.plist */,
 				4C3A8E6327EA70BC004BFE88 /* FahrenheitViewController.swift */,
+				4C3A8E6727EA7760004BFE88 /* KelvinViewController.swift */,
 			);
 			path = ConversorTemperatura;
 			sourceTree = "<group>";
@@ -147,8 +161,10 @@
 				4CD28A0627E6341B003425F3 /* ViewController.swift in Sources */,
 				4CD28A1627E63746003425F3 /* CelsiusViewController.swift in Sources */,
 				4CD28A0227E6341B003425F3 /* AppDelegate.swift in Sources */,
+				4C3A8E6827EA7760004BFE88 /* KelvinViewController.swift in Sources */,
 				4CD28A0427E6341B003425F3 /* SceneDelegate.swift in Sources */,
 				4C3A8E6427EA70BC004BFE88 /* FahrenheitViewController.swift in Sources */,
+				4C3A8E6A27EA797B004BFE88 /* Alerta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
