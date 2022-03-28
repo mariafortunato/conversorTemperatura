@@ -17,6 +17,7 @@
 		4CD28A0B27E6341C003425F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD28A0A27E6341C003425F3 /* Assets.xcassets */; };
 		4CD28A0E27E6341C003425F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD28A0C27E6341C003425F3 /* LaunchScreen.storyboard */; };
 		4CD28A1627E63746003425F3 /* CelsiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD28A1527E63746003425F3 /* CelsiusViewController.swift */; };
+		4CD7259F27F22267006A87C5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7259E27F22267006A87C5 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4CD28A0D27E6341C003425F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD28A0F27E6341C003425F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD28A1527E63746003425F3 /* CelsiusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelsiusViewController.swift; sourceTree = "<group>"; };
+		4CD7259E27F22267006A87C5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4CD28A1527E63746003425F3 /* CelsiusViewController.swift */,
 				4C3A8E6327EA70BC004BFE88 /* FahrenheitViewController.swift */,
 				4C3A8E6727EA7760004BFE88 /* KelvinViewController.swift */,
+				4CD7259E27F22267006A87C5 /* TabBarViewController.swift */,
 			);
 			path = ConversorTemperatura;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD7259F27F22267006A87C5 /* TabBarViewController.swift in Sources */,
 				4CD28A0627E6341B003425F3 /* ViewController.swift in Sources */,
 				4CD28A1627E63746003425F3 /* CelsiusViewController.swift in Sources */,
 				4CD28A0227E6341B003425F3 /* AppDelegate.swift in Sources */,

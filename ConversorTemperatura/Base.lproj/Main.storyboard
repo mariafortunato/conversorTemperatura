@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ogr-A0-uid">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Kelvin-->
+        <!--Kelvin View Controller-->
         <scene sceneID="bBR-TY-Nxk">
             <objects>
                 <viewController id="86V-MR-A2y" customClass="KelvinViewController" customModule="ConversorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="04z-fX-YeU">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informe a temperatura em Kelvin:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVI-d1-8Wr">
-                                <rect key="frame" x="84" y="45" width="260" height="52.666666666666657"/>
+                                <rect key="frame" x="84" y="45" width="246" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,21 +26,21 @@
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="34" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qBC-Fm-qMi">
-                                <rect key="frame" x="166" y="147.66666666666666" width="96" height="40"/>
+                                <rect key="frame" x="166" y="148" width="82" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Z14-0Y-tx2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dX-c0-MX8">
-                                <rect key="frame" x="278.33333333333331" y="154.66666666666666" width="13.666666666666686" height="26"/>
+                                <rect key="frame" x="264.5" y="155" width="13.5" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4L-Z9-BWW">
-                                <rect key="frame" x="136" y="257.66666666666669" width="156" height="36"/>
+                                <rect key="frame" x="136" y="258" width="142" height="36"/>
                                 <color key="backgroundColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="c7k-hS-sWa"/>
@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Fahrenheit:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qee-s5-hrT">
-                                <rect key="frame" x="80" y="547.66666666666663" width="268" height="24"/>
+                                <rect key="frame" x="80" y="548" width="254" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -62,7 +62,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-398,4 ºF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxJ-RZ-hKH">
-                                <rect key="frame" x="157" y="601.66666666666663" width="114" height="50"/>
+                                <rect key="frame" x="157" y="602" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="T0L-ra-5qP"/>
                                 </constraints>
@@ -74,7 +74,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Celsius:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5d-0k-DQW">
-                                <rect key="frame" x="80" y="393.66666666666669" width="268" height="24"/>
+                                <rect key="frame" x="80" y="394" width="254" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -83,7 +83,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-239,1 ºC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6e-fp-lTB">
-                                <rect key="frame" x="157" y="447.66666666666669" width="114" height="50"/>
+                                <rect key="frame" x="157" y="448" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="E5q-au-gRw"/>
                                 </constraints>
@@ -124,7 +124,8 @@
                             <constraint firstItem="7eY-EF-dZ1" firstAttribute="trailing" secondItem="qBC-Fm-qMi" secondAttribute="trailing" constant="166" id="wD0-yR-A5J"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Kelvin" id="OIC-X7-Rmk"/>
+                    <tabBarItem key="tabBarItem" title="" image="kelvin" id="OIC-X7-Rmk"/>
+                    <navigationItem key="navigationItem" id="q7U-rM-NR8"/>
                     <connections>
                         <outlet property="tempCelsiusLabel" destination="T6e-fp-lTB" id="h3n-od-AbG"/>
                         <outlet property="tempFahrenheitLabel" destination="hxJ-RZ-hKH" id="vso-9K-xdw"/>
@@ -133,18 +134,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U08-pn-qHN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277.1028037383178" y="-84.881209503239745"/>
+            <point key="canvasLocation" x="-481" y="593"/>
         </scene>
-        <!--Fahrenheit-->
+        <!--Fahrenheit View Controller-->
         <scene sceneID="DB4-El-gjA">
             <objects>
                 <viewController id="wqw-bA-EWv" customClass="FahrenheitViewController" customModule="ConversorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5QL-xb-pxB">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Celsius:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbN-hh-Cfu">
-                                <rect key="frame" x="80" y="390.66666666666669" width="269" height="24"/>
+                                <rect key="frame" x="80" y="391" width="255" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -153,7 +154,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Kelvin:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EE4-GI-yL2">
-                                <rect key="frame" x="87" y="544.66666666666663" width="255" height="24"/>
+                                <rect key="frame" x="87" y="545" width="241" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -162,7 +163,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0y-LS-loj">
-                                <rect key="frame" x="136" y="254.66666666666663" width="156" height="36"/>
+                                <rect key="frame" x="136" y="255" width="142" height="36"/>
                                 <color key="backgroundColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="N9P-Iy-rHC"/>
@@ -175,7 +176,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informe a temperatura em Fahrenheit:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xh-Id-2zY">
-                                <rect key="frame" x="85" y="45" width="259" height="52.666666666666657"/>
+                                <rect key="frame" x="85" y="45" width="245" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -184,15 +185,15 @@
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="34" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yaW-fk-Bju">
-                                <rect key="frame" x="166" y="147.66666666666666" width="96" height="37"/>
+                                <rect key="frame" x="166" y="148" width="82" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="7bi-U0-eb8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,1 ºC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpX-SD-Ck8">
-                                <rect key="frame" x="157" y="444.66666666666669" width="114" height="50"/>
+                                <rect key="frame" x="157" y="445" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ZnY-bm-uqh"/>
                                 </constraints>
@@ -204,7 +205,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="274,2 K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9EL-5e-3Vy">
-                                <rect key="frame" x="157" y="598.66666666666663" width="114" height="50"/>
+                                <rect key="frame" x="157" y="599" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ved-my-94N"/>
                                 </constraints>
@@ -216,7 +217,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ºF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGT-Ro-hEj">
-                                <rect key="frame" x="270" y="153.33333333333334" width="20.666666666666686" height="26"/>
+                                <rect key="frame" x="256" y="153.5" width="20.5" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -251,7 +252,8 @@
                             <constraint firstItem="3Dl-Se-YKq" firstAttribute="trailing" secondItem="YpX-SD-Ck8" secondAttribute="trailing" constant="157" id="xtA-ta-NSr"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fahrenheit" id="hrK-ED-Ubt"/>
+                    <tabBarItem key="tabBarItem" title="" image="fahrenheit" id="hrK-ED-Ubt"/>
+                    <navigationItem key="navigationItem" id="yOd-ar-CZd"/>
                     <connections>
                         <outlet property="tempCelsiusLabel" destination="YpX-SD-Ck8" id="Fsj-Xc-oIB"/>
                         <outlet property="tempFahrenheitTextField" destination="yaW-fk-Bju" id="pnW-na-icP"/>
@@ -260,18 +262,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3jD-08-gvC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="405.79710144927537" y="-84.375"/>
+            <point key="canvasLocation" x="-481" y="-107"/>
         </scene>
-        <!--Celsius-->
+        <!--Celsius View Controller-->
         <scene sceneID="SFO-uD-XdM">
             <objects>
                 <viewController id="lgj-Al-6U1" customClass="CelsiusViewController" customModule="ConversorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="afw-j8-OIu">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informe a temperatura em Celsius:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4X7-he-Wfd">
-                                <rect key="frame" x="89" y="45" width="251" height="52.666666666666657"/>
+                                <rect key="frame" x="89" y="45" width="237" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -280,18 +282,18 @@
                                 </variation>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="34" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJY-6n-iTC">
-                                <rect key="frame" x="166" y="147.66666666666666" width="96" height="37"/>
+                                <rect key="frame" x="166" y="148" width="82" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="E4j-sQ-RFf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Fahrenheit:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bee-WQ-ast">
-                                <rect key="frame" x="63" y="390.66666666666669" width="302" height="24"/>
+                                <rect key="frame" x="63" y="391" width="288" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -300,7 +302,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="93,2 °F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvN-rb-bJM">
-                                <rect key="frame" x="157" y="444.66666666666669" width="114" height="50"/>
+                                <rect key="frame" x="157" y="445" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="OJ1-rw-iga"/>
                                 </constraints>
@@ -312,7 +314,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatura em Kelvin:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4D-bP-3ah">
-                                <rect key="frame" x="87" y="544.66666666666663" width="255" height="24"/>
+                                <rect key="frame" x="87" y="545" width="241" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -321,7 +323,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YM-45-Yu8">
-                                <rect key="frame" x="136" y="254.66666666666663" width="156" height="36"/>
+                                <rect key="frame" x="136" y="255" width="142" height="36"/>
                                 <color key="backgroundColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="a4J-OF-ifU"/>
@@ -334,7 +336,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="307,15 K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfN-5g-Mvd">
-                                <rect key="frame" x="157" y="598.66666666666663" width="114" height="50"/>
+                                <rect key="frame" x="157" y="599" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="e1S-zI-WvS"/>
                                 </constraints>
@@ -346,7 +348,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KP5-kV-qVw">
-                                <rect key="frame" x="270" y="152.66666666666666" width="31" height="27"/>
+                                <rect key="frame" x="256" y="153" width="31" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -381,7 +383,8 @@
                             <constraint firstItem="4X7-he-Wfd" firstAttribute="leading" secondItem="vu8-KW-730" secondAttribute="leading" constant="89" id="ySQ-FN-VV7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Celsius" id="KTr-p1-qzQ"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="celsius" id="KTr-p1-qzQ"/>
+                    <navigationItem key="navigationItem" id="f1N-gW-Eui"/>
                     <connections>
                         <outlet property="tempCelsiusTextField" destination="sJY-6n-iTC" id="13T-tE-UiA"/>
                         <outlet property="tempFahrenheitLabel" destination="qvN-rb-bJM" id="orf-S8-5h3"/>
@@ -390,163 +393,175 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YG3-i5-sxI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-368.11594202898556" y="-84.375"/>
+            <point key="canvasLocation" x="-481" y="-776"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="3JI-eB-5mY">
+        <!--Tab Bar View Controller-->
+        <scene sceneID="W8G-dM-Iqk">
             <objects>
-                <tabBarController id="vmG-VT-67R" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="bUz-Sa-1U4"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="leA-GW-nwE">
+                <tabBarController id="Ub3-b8-dou" customClass="TabBarViewController" customModule="ConversorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2qd-U6-Inr"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="esv-pV-cDY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.45366300177722496" blue="0.21562500239334847" alpha="0.24547288907284767" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="lgj-Al-6U1" kind="relationship" relationship="viewControllers" id="iWN-Ob-HYf"/>
-                        <segue destination="wqw-bA-EWv" kind="relationship" relationship="viewControllers" id="3w0-9V-bsu"/>
-                        <segue destination="86V-MR-A2y" kind="relationship" relationship="viewControllers" id="3ff-eJ-joc"/>
+                        <segue destination="lgj-Al-6U1" kind="relationship" relationship="viewControllers" id="Glu-2Q-KUv"/>
+                        <segue destination="wqw-bA-EWv" kind="relationship" relationship="viewControllers" id="c3N-Rf-7aD"/>
+                        <segue destination="86V-MR-A2y" kind="relationship" relationship="viewControllers" id="XjN-7o-gFq"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Czd-hD-l1g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ive-Gm-cpd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1237" y="-84"/>
+            <point key="canvasLocation" x="-1380" y="-188"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="yOP-OW-jnD">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConversorTemperatura" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                <viewController id="ogr-A0-uid" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jlD-cI-EjI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="4cV-mL-dq4">
-                                <rect key="frame" x="40" y="84" width="348" height="635.66666666666663"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pu0-nu-pnc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="856"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conversão de temperatura" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzG-a6-fQC">
-                                        <rect key="frame" x="0.0" y="0.0" width="348" height="36.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
-                                        <color key="textColor" red="0.57884984959999997" green="0.26260276030000002" blue="0.1248145002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="32"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvQ-ml-jFy">
-                                        <rect key="frame" x="0.0" y="47.666666666666671" width="348" height="176.66666666666663"/>
-                                        <string key="text">    Temperatura é uma medida do grau de agitação das moléculas – quanto maior a energia, maior a rapidez das moléculas no objeto. Essa medida é um valor numérico acompanhado de uma unidade de medida. Dentre as unidades de medida mais conhecidas estão o grau:</string>
-                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celsius (°C)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-tj-SZA">
-                                        <rect key="frame" x="0.0" y="235.33333333333331" width="348" height="31"/>
-                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
-                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Usada em quase todo o mundo, foi proposta em 1742 pelo astrônomo Anders Celsius." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrO-a0-ma2">
-                                        <rect key="frame" x="0.0" y="277.33333333333331" width="348" height="75.666666666666686"/>
-                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fahrenheit (°F)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uir-q9-dNJ">
-                                        <rect key="frame" x="0.0" y="364" width="348" height="31"/>
-                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
-                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Proposta por Daniel Gabriel Fahrenheit em 1724, e usada em países de língua inglesa como Estados Unidos." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCy-em-tGM">
-                                        <rect key="frame" x="0.0" y="406" width="348" height="75.666666666666686"/>
-                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelvin (K)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyC-8e-kLr">
-                                        <rect key="frame" x="0.0" y="492.66666666666663" width="348" height="31"/>
-                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
-                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uue-oa-Kh2">
-                                        <rect key="frame" x="0.0" y="534.66666666666663" width="348" height="101"/>
-                                        <string key="text">  A escala kelvin foi proposta em 1854 pelo físico irlandês William Thomson, conhecido como Lord Kelvin, muito utilizada em Física e Química.</string>
-                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=regular">
-                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YtN-Hg-vfT">
-                                <rect key="frame" x="0.0" y="796" width="428" height="130"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXl-n6-WaF">
-                                        <rect key="frame" x="128.33333333333331" y="34" width="171.33333333333331" height="36"/>
-                                        <color key="backgroundColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-IC-EhL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="RKp-6W-mMt">
+                                                <rect key="frame" x="40" y="30" width="334" height="673"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conversão de temperatura" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzG-a6-fQC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="24"/>
+                                                        <color key="textColor" red="0.57884984959999997" green="0.26260276030000002" blue="0.1248145002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="32"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvQ-ml-jFy">
+                                                        <rect key="frame" x="0.0" y="47" width="334" height="202"/>
+                                                        <string key="text">    Temperatura é uma medida do grau de agitação das moléculas – quanto maior a energia, maior a rapidez das moléculas no objeto. Essa medida é um valor numérico acompanhado de uma unidade de medida. Dentre as unidades de medida mais conhecidas estão o grau:</string>
+                                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celsius (°C)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-tj-SZA">
+                                                        <rect key="frame" x="0.0" y="262" width="334" height="31"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Usada em quase todo o mundo, foi proposta em 1742 pelo astrônomo Anders Celsius." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrO-a0-ma2">
+                                                        <rect key="frame" x="0.0" y="306" width="334" height="76"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fahrenheit (°F)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uir-q9-dNJ">
+                                                        <rect key="frame" x="0.0" y="395" width="334" height="31"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Proposta por Daniel Gabriel Fahrenheit em 1724, e usada em países de língua inglesa como Estados Unidos." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCy-em-tGM">
+                                                        <rect key="frame" x="0.0" y="439" width="334" height="76"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelvin (K)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyC-8e-kLr">
+                                                        <rect key="frame" x="0.0" y="528" width="334" height="31"/>
+                                                        <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                                        <color key="textColor" red="0.75686274509803919" green="0.34509803921568627" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="26"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uue-oa-Kh2">
+                                                        <rect key="frame" x="0.0" y="572" width="334" height="101"/>
+                                                        <string key="text">  A escala kelvin foi proposta em 1854 pelo físico irlandês William Thomson, conhecido como Lord Kelvin, muito utilizada em Física e Química.</string>
+                                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="24"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XY-dD-CKg">
+                                                <rect key="frame" x="121.5" y="743" width="171.5" height="31"/>
+                                                <color key="backgroundColor" red="0.77647058823529413" green="0.3529411764705882" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Converter temperatura"/>
+                                                <connections>
+                                                    <segue destination="Ub3-b8-dou" kind="show" id="tWM-n3-Zwp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="36" id="hXi-Hd-5AJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="RKp-6W-mMt" secondAttribute="trailing" constant="40" id="2yk-TN-kFm"/>
+                                            <constraint firstItem="1XY-dD-CKg" firstAttribute="centerX" secondItem="bUG-IC-EhL" secondAttribute="centerX" id="Byx-s1-Seb"/>
+                                            <constraint firstItem="RKp-6W-mMt" firstAttribute="top" secondItem="bUG-IC-EhL" secondAttribute="top" constant="30" id="CQv-MO-VdC"/>
+                                            <constraint firstAttribute="height" constant="900" id="PvT-1t-Gep"/>
+                                            <constraint firstItem="1XY-dD-CKg" firstAttribute="top" secondItem="RKp-6W-mMt" secondAttribute="bottom" constant="40" id="cGM-zb-Ptn"/>
+                                            <constraint firstItem="RKp-6W-mMt" firstAttribute="leading" secondItem="bUG-IC-EhL" secondAttribute="leading" constant="40" id="p0d-qZ-1l2"/>
                                         </constraints>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Converter temperatura"/>
-                                        <connections>
-                                            <action selector="entrarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DeJ-JQ-SJq"/>
-                                        </connections>
-                                    </button>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="pXl-n6-WaF" firstAttribute="centerX" secondItem="YtN-Hg-vfT" secondAttribute="centerX" id="O84-nz-wNV"/>
-                                    <constraint firstAttribute="bottom" secondItem="pXl-n6-WaF" secondAttribute="bottom" constant="60" id="dFr-vN-yFc"/>
-                                    <constraint firstAttribute="height" constant="130" id="j7w-KK-f0y"/>
+                                    <constraint firstAttribute="bottom" secondItem="bUG-IC-EhL" secondAttribute="bottom" id="0nh-Ps-JfZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="bUG-IC-EhL" secondAttribute="trailing" id="7Az-0U-MH1"/>
+                                    <constraint firstItem="bUG-IC-EhL" firstAttribute="top" secondItem="pu0-nu-pnc" secondAttribute="top" id="MR2-u3-caQ"/>
+                                    <constraint firstItem="bUG-IC-EhL" firstAttribute="leading" secondItem="pu0-nu-pnc" secondAttribute="leading" id="azw-o0-hin"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="hI1-Wu-7Qn"/>
-                        <color key="backgroundColor" red="0.94509803921568625" green="0.97254901960784312" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jtF-3N-FpX"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YtN-Hg-vfT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="6Rp-F7-NGs"/>
-                            <constraint firstItem="4cV-mL-dq4" firstAttribute="top" secondItem="hI1-Wu-7Qn" secondAttribute="top" constant="40" id="I5K-v4-4Ka"/>
-                            <constraint firstAttribute="trailing" secondItem="4cV-mL-dq4" secondAttribute="trailing" constant="40" id="Ock-fI-Ge5"/>
-                            <constraint firstItem="4cV-mL-dq4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="QW7-fY-tNp"/>
-                            <constraint firstItem="YtN-Hg-vfT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WcE-6q-SbL"/>
-                            <constraint firstItem="4cV-mL-dq4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bGG-oE-Vdy"/>
-                            <constraint firstAttribute="bottom" secondItem="YtN-Hg-vfT" secondAttribute="bottom" id="cga-GG-NAF"/>
-                            <constraint firstItem="YtN-Hg-vfT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sIM-Dj-BHV"/>
+                            <constraint firstItem="pu0-nu-pnc" firstAttribute="top" secondItem="jtF-3N-FpX" secondAttribute="top" id="3Qk-oH-0ny"/>
+                            <constraint firstAttribute="bottom" secondItem="pu0-nu-pnc" secondAttribute="bottom" id="AQS-VS-qkd"/>
+                            <constraint firstItem="bUG-IC-EhL" firstAttribute="width" secondItem="jlD-cI-EjI" secondAttribute="width" id="ZYc-RO-299"/>
+                            <constraint firstItem="pu0-nu-pnc" firstAttribute="leading" secondItem="jtF-3N-FpX" secondAttribute="leading" id="dBi-cZ-BZn"/>
+                            <constraint firstItem="pu0-nu-pnc" firstAttribute="trailing" secondItem="jtF-3N-FpX" secondAttribute="trailing" id="iuT-wm-3yk"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="vmG-VT-67R" kind="show" identifier="loginToCalculos" id="hvY-ps-CWP"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="KAb-2J-jhO">
+                        <barButtonItem key="backBarButtonItem" title="Voltar " id="Z6r-n5-yVL"/>
+                    </navigationItem>
+                    <size key="freeformSize" width="414" height="900"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uoN-oX-Tv0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2094" y="-84"/>
+            <point key="canvasLocation" x="-2313.04347826087" y="-188.16964285714286"/>
         </scene>
     </scenes>
     <resources>
+        <image name="celsius" width="16" height="16"/>
+        <image name="fahrenheit" width="16" height="16"/>
+        <image name="kelvin" width="16" height="16"/>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
