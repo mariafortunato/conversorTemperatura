@@ -24,6 +24,7 @@
 		4C3A8E6327EA70BC004BFE88 /* FahrenheitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitViewController.swift; sourceTree = "<group>"; };
 		4C3A8E6727EA7760004BFE88 /* KelvinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinViewController.swift; sourceTree = "<group>"; };
 		4C3A8E6927EA797B004BFE88 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		4C7DD88F27F33F09000780F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CD289FE27E6341B003425F3 /* ConversorTemperatura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversorTemperatura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD28A0127E6341B003425F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD28A0327E6341B003425F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		4CD289F527E6341B003425F3 = {
 			isa = PBXGroup;
 			children = (
+				4C7DD88F27F33F09000780F9 /* README.md */,
 				4CD28A0027E6341B003425F3 /* ConversorTemperatura */,
 				4CD289FF27E6341B003425F3 /* Products */,
 			);
