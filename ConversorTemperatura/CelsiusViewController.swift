@@ -42,11 +42,11 @@ class CelsiusViewController: UIViewController {
         let celsius = (celsiusString as NSString).doubleValue
         
         // celsius para fahrenheit
-        let fahrenheit = 1.8 * celsius + 32
+        let fahrenheit = 1.8 * celsius + 32.0
         tempFahrenheitLabel.text = "\(formatarDecimal(value: fahrenheit)) ºF"
         
         // celsius para kelvin
-        let kelvin = celsius + 273 // ou 273.15, depende do site 
+        let kelvin = celsius + 273.0 // ou 273.15, depende do site
         tempKelvinLabel.text = "\(formatarDecimal(value: kelvin)) K"
     }
     func formatarDecimal(value:Double) -> String {

@@ -42,11 +42,11 @@ class FahrenheitViewController: UIViewController {
         let fahrenheit = (fahrenheitString as NSString).doubleValue
         
         // fahrenheit para celsius
-        let celsius = (fahrenheit - 32) / 1.8
+        let celsius = (fahrenheit - 32.0) / 1.8
         tempCelsiusLabel.text = "\(formatarDecimal(value: celsius)) ºC"
         
         // fahrenheit para kelvin
-        let kelvin = (fahrenheit - 32) / 1.8 + 273
+        let kelvin = (fahrenheit - 32.0) / 1.8 + 273.0
         tempKelvinLabel.text = "\(formatarDecimal(value: kelvin)) K"
     }
     // transformar o numero com duas casas apos a virgula
